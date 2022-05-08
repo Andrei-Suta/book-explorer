@@ -40,12 +40,7 @@ export class Navbar extends Component {
           </div>
           <ul className="navbar-nav ml-auto" >
               <li className="nav-item" style={{backgroundColor: "#89CFF0", color: "white"}}>
-                <a className="nav-link" href="/" style={{backgroundColor: "#89CFF0", color: "white"}}> <Book color="white" size={20} style={{backgroundColor: "#89CFF0", color: "white"}}/>   My Book List</a>
-              </li>
-          </ul>
-          <ul className="navbar-nav ml-auto">
-              <li className="nav-item" style={{backgroundColor: "#89CFF0"}}>
-                <button type="button" className="btn btn-light logout" style={{backgroundColor: "white", color: "#89CFF0"}}>Logout</button>
+                <a className="nav-link" href="/account" style={{backgroundColor: "#89CFF0", color: "white"}}> <Book color="white" size={20} style={{backgroundColor: "#89CFF0", color: "white"}}/>   My Book List</a>
               </li>
           </ul>
         </nav>

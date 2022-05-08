@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Signup from '../Components/Signup';
+import {Signup} from '../Components/Signup';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container } from 'react-bootstrap';
 export class Register extends Component {
